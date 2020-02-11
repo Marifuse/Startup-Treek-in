@@ -1,48 +1,103 @@
-// Navbar logo
-.navbar-brand {
-  color: $black;
-  font-size: $x-large;
-  font-weight: $bold;
-  margin-left: 1em;
-  transition: .5s;
-  span{
-    font-size: $small;
-  }
-  &:hover {
-    color: $nickel;
-  }
+// Contenedor navbar
+.navbar {
+  position: fixed;
+  background-color: $white;
+  width: 100%;
+  z-index: 2;
+}
+.nav__container {
+  width: 100%;
+  // padding: 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
-// Navbar íconos
-.nav__item {
-  a {
-    i {
-      transition: .5s;
-      color: $black;
-      font-size: $large;
-      margin-left: 1em;
-      &:hover {
-          color: $nickel;
-      }
+// Logo navbar
+.nav__logo {
+  position: absolute;
+  padding: 1em;
+}
 
+// Collapse
+.nav__collapse {
+  text-align: right;
+  padding: 1em;
+  width: 100%;
+  .menu {
+    font-size: $x-large;
+    display: block;
+  }
+}
+#menu {
+  display: none;
+}
+
+// Otros items del navbar
+.navigation__container {
+  display: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: $white;
+  z-index: 2;
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      width: 100%;
+      padding: 1em;
+      text-align: center;
+      a {
+        color: $raisin-black;
+      }
     }
   }
 }
 
-.nav__items {
-  &:last-child {
-    margin-right: 1em;
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  a {
+    margin: 0.5em;
   }
 }
 
-// Media Querys versión movil
-@media (max-width: 992px) {
-  .navbar-brand {
-    margin-left: 0;
+// Media Querys desktop
+
+@media only screen and (min-width: 730px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
   }
-  .navbar-toggler {
-    i {
-      color: $nickel; 
+  .nav__logo {
+    position: static;
+    padding-left: 3em;
+  }
+  .nav__collapse {
+    width: 100%;
+    clear: right;
+    padding: 0;
+    .menu {
+      display: none;
+    }
+  }
+  .navigation__container {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+    ul {
+      width: 30%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .nav__buttons {
+    padding-right: 3em;
+    display: flex;
+    align-items: center;
+    a {
+      margin-left: 1em;
     }
   }
 }

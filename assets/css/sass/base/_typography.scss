@@ -1,4 +1,26 @@
-@font-face {
-  font-family: "futura";
-  src: url("/assets/fonts/FuturaLT.woff"),url("/assets/fonts/FuturaLT.ttf");
+body {
+  font-family: $open-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $raleway;
+}
+
+h1 {
+  font-size: $xxxxx-large;
+}
+
+h2 {
+  font-size: $xxxx-large;
+  text-align: center;
+}
+
+h3 {
+  font-size: $xxx-large;
+}
+
+p {
+  font-size: $medium;
+  font-family: $open-sans;
+  line-height: 1.6;
 }

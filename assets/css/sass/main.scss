@@ -2,18 +2,19 @@
 // Abstracts
 @import 'abstracts/variables';
 
-// Vendors
-@import 'vendors/bootstrap-4.1/bootstrap.scss';
-
 // Base
-@import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
+// @import 'base/keyframes';
 
 // Components
 @import 'components/buttons';
 @import 'components/navbar';
+@import 'components/images';
 
 // Layout
+@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/main';
+@import 'layout/section';
+@import 'layout/footer';
