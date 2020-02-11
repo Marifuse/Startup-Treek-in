@@ -1,1 +1,29 @@
+// Botones navbar
+.primary__button {
+  background-color: $ball-blue;
+  padding: 0.5em;
+  color: $white;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 
+  &:hover {
+    background-color: $middle-blue;
+  }
+
+  &:focus {
+    background-color: $lavender-gray;
+  }
+
+  &--large {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 1em;
+    padding: 1em;
+    cursor: pointer;
+  }
+}
+
+.login__button {
+  color: $raisin-black;
+}
