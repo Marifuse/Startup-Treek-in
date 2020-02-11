@@ -1,0 +1,49 @@
+// Imagen principal
+.header__img {
+  height: 25em;
+  position: relative;
+}
+
+//Perfil Yuki Yuki Mukami
+.main__container {
+  justify-content: space-between;
+  border-bottom: 1px solid $nickel;
+}
+
+.buttons__button {
+  transition: .5s !important;
+}
+
+.personal__profile {
+  img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+  }
+}
+
+.main__profile {
+  h2 {
+    font-weight: $bold;
+  }
+  p {
+    color: $nickel;
+  }
+}
+
+// Media Querys versión movil
+@media (max-width: 767px) {
+  .header__img {
+    height: 15em;
+  }
+  .main__container {
+    justify-content: center !important;
+    border-bottom: none;
+  }
+  .personal__profile {
+    margin-top: 0 !important;
+  }
+  .main__profile {
+    margin-right: 0 !important;
+  }
+}
