@@ -1,0 +1,46 @@
+// Sección cards con Precios
+.prices__container {
+  position: relative;
+  background-color: transparent;
+  padding-top: 1em;
+  img {
+    position: absolute;
+    z-index: -2;
+  }
+}
+.section__container {
+  position: relative;
+  top: 12rem;
+  h2 {
+    color: $white;
+    margin-top: 1em;
+  }
+  .row {
+    padding-top: 2em;
+    grid-gap: 5rem;
+  }
+}
+
+#card1 {
+  grid-column-start: 4;
+}
+#card2 {
+  grid-column-start: 8;
+}
+
+// Botones de las cards
+.card__button {
+  display: flex;
+  justify-content: center;
+  button {
+    width: 100%;
+    font-size: 1em;
+    font-weight: $bold;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+// Media Querys versión movil (IMG)
+@media screen and (max-width: 729px) {
+
+}

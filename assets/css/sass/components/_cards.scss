@@ -1,0 +1,33 @@
+// Forma de las cards en la sección prices
+.card {
+  width: 80%;
+  background-color: $white;
+  padding: 4em;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  &:hover {
+    box-shadow: 5px 5px 8px $dark-salmon;
+  }
+}
+
+.price__card {
+  padding-bottom: 1em;
+  p {
+    font-size: $medium;
+  }
+  h4 {
+    font-size: $x-large;
+  }
+}
+
+.card__features {
+  height: 70%;
+  padding: 1em;
+  border-bottom: solid 1px $spanish-gray;
+  border-top: solid 1px $spanish-gray;
+  list-style-type: disc;
+  li {
+    margin: 0.5em;
+  }
+}

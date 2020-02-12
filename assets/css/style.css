@@ -177,6 +177,39 @@ p {
     margin-left: 1em;
   }
 }
+.card {
+  width: 80%;
+  background-color: #FFFFFF;
+  padding: 4em;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.card:hover {
+  box-shadow: 5px 5px 8px #EE9480;
+}
+
+.price__card {
+  padding-bottom: 1em;
+}
+.price__card p {
+  font-size: 300;
+}
+.price__card h4 {
+  font-size: 30px;
+}
+
+.card__features {
+  height: 70%;
+  padding: 1em;
+  border-bottom: solid 1px #8F9199;
+  border-top: solid 1px #8F9199;
+  list-style-type: disc;
+}
+.card__features li {
+  margin: 0.5em;
+}
+
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -457,14 +490,11 @@ p {
   .header__tittle p {
     font-size: 14px;
   }
-
-  .header__img {
-    height: 41vh;
-  }
 }
 .main__container {
   padding-left: 8em;
   padding-right: 8em;
+  padding-bottom: 5em;
 }
 .main__container h2 {
   text-align: center;
@@ -481,7 +511,7 @@ p {
 
 @media screen and (max-width: 729px) {
   .main__container {
-    padding-top: 8em;
+    padding-top: 1em;
     padding-left: 3em;
     padding-right: 3em;
   }
@@ -489,11 +519,62 @@ p {
     font-size: 35px;
   }
   .main__container h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .main__container p {
     font-size: 14px;
   }
+}
+.prices__container {
+  position: relative;
+  background-color: transparent;
+  padding-top: 1em;
+}
+.prices__container img {
+  position: absolute;
+  z-index: -2;
+}
+
+.section__container {
+  position: relative;
+  top: 12rem;
+}
+.section__container h2 {
+  color: #FFFFFF;
+  margin-top: 1em;
+}
+.section__container .row {
+  padding-top: 2em;
+  grid-gap: 5rem;
+}
+
+#card1 {
+  grid-column-start: 4;
+}
+
+#card2 {
+  grid-column-start: 8;
+}
+
+.card__button {
+  display: flex;
+  justify-content: center;
+}
+.card__button button {
+  width: 100%;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.footer {
+  background-color: #222323;
+  color: #AEACAF;
+  margin-top: 15em;
+}
+.footer a {
+  color: #AEACAF;
 }
 
 /*# sourceMappingURL=style.css.map */

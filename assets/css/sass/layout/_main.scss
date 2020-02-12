@@ -2,6 +2,7 @@
 .main__container {
   padding-left: 8em;
   padding-right: 8em;
+  padding-bottom: 5em;
   h2 {
     text-align: center;
     padding-bottom: 1em;
@@ -21,14 +22,14 @@
 // Media Querys versión movil
 @media screen and (max-width: 729px) {
   .main__container {
-    padding-top: 8em;
+    padding-top: 1em;
     padding-left: 3em;
     padding-right: 3em;
     h2 {
       font-size: $xx-large;
     }
     h3 {
-      font-size: $xx-large;
+      font-size: $x-large;
     }
     p {
       font-size: $small;
