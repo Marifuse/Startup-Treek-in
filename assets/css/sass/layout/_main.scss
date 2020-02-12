@@ -1,1 +1,37 @@
+// Sección textos con gráfico
+.main__container {
+  padding-left: 8em;
+  padding-right: 8em;
+  h2 {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+}
 
+// Gráfico
+.main__graphic {
+  align-self: center;
+}
+
+// Textos
+.main__text {
+  align-self: center;
+}
+
+// Media Querys versión movil
+@media screen and (max-width: 729px) {
+  .main__container {
+    padding-top: 8em;
+    padding-left: 3em;
+    padding-right: 3em;
+    h2 {
+      font-size: $xx-large;
+    }
+    h3 {
+      font-size: $xx-large;
+    }
+    p {
+      font-size: $small;
+    }
+  }
+}
