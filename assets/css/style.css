@@ -500,6 +500,9 @@ p {
   height: 0;
   padding-left: 10em;
 }
+.header__tittle h1 {
+  padding-bottom: 0.5em;
+}
 
 .header__img {
   background-size: cover;
@@ -514,7 +517,6 @@ p {
   }
   .header__tittle h1 {
     font-size: 35px;
-    padding-bottom: 0.5em;
   }
   .header__tittle p {
     font-size: 14px;
@@ -564,6 +566,7 @@ p {
   }
   .main__container p {
     font-size: 14px;
+    padding: 2em;
   }
 
   .main__graphic {
@@ -593,7 +596,7 @@ p {
 }
 .section__container h2 {
   color: #FFFFFF;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 .section__container .row {
   padding-top: 2em;
