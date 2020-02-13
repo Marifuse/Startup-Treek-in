@@ -10,19 +10,20 @@
 }
 .section__container {
   position: relative;
-  top: 12rem;
+  top: 10rem;
   h2 {
     color: $white;
     margin-top: 1em;
   }
   .row {
     padding-top: 2em;
-    grid-gap: 5rem;
+    grid-gap: 4rem;
   }
 }
 
 #card1 {
   grid-column-start: 4;
+  width: 85.5%;
 }
 #card2 {
   grid-column-start: 8;

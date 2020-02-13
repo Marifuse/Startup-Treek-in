@@ -11,12 +11,20 @@
 
 // Gráfico
 .main__graphic {
-  align-self: center;
+  display: flex;
+  justify-content: center;
+  svg {
+    width: 60%;
+  }
 }
 
 // Textos
 .main__text {
   align-self: center;
+  text-align: center;
+  h3 {
+    padding-bottom: 0.5em;
+  }
 }
 
 // Media Querys versión movil

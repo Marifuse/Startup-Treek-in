@@ -2,8 +2,41 @@
 .footer {
   background-color: $raisin-black;
   color: $silver-chalice;
-  margin-top: 15em;
+  padding: 2em;
+  margin-top: 11em;
   a {
     color: $silver-chalice;
+  }
+}
+
+.footer__container {
+  width: 100%;
+}
+
+.footer__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__items {
+  display: flex;
+  li {
+    padding-right: 2em;
+  }
+}
+
+// Media Querys versión movil
+@media screen and (max-width: 729px) {
+  .footer__section {
+    display: block;
+  }
+  .footer__items {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
   }
 }

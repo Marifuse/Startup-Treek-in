@@ -502,11 +502,19 @@ p {
 }
 
 .main__graphic {
-  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.main__graphic svg {
+  width: 60%;
 }
 
 .main__text {
   align-self: center;
+  text-align: center;
+}
+.main__text h3 {
+  padding-bottom: 0.5em;
 }
 
 @media screen and (max-width: 729px) {
@@ -537,7 +545,7 @@ p {
 
 .section__container {
   position: relative;
-  top: 12rem;
+  top: 10rem;
 }
 .section__container h2 {
   color: #FFFFFF;
@@ -545,11 +553,12 @@ p {
 }
 .section__container .row {
   padding-top: 2em;
-  grid-gap: 5rem;
+  grid-gap: 4rem;
 }
 
 #card1 {
   grid-column-start: 4;
+  width: 85.5%;
 }
 
 #card2 {
@@ -571,10 +580,44 @@ p {
 .footer {
   background-color: #222323;
   color: #AEACAF;
-  margin-top: 15em;
+  padding: 2em;
+  margin-top: 11em;
 }
 .footer a {
   color: #AEACAF;
+}
+
+.footer__container {
+  width: 100%;
+}
+
+.footer__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__items {
+  display: flex;
+}
+.footer__items li {
+  padding-right: 2em;
+}
+
+@media screen and (max-width: 729px) {
+  .footer__section {
+    display: block;
+  }
+
+  .footer__items {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
