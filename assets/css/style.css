@@ -1,3 +1,14 @@
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   padding: 0;
   margin: 0;
@@ -210,6 +221,11 @@ p {
   margin: 0.5em;
 }
 
+@media screen and (max-width: 729px) {
+  .card__features {
+    height: auto;
+  }
+}
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -522,6 +538,10 @@ p {
     padding-top: 1em;
     padding-left: 3em;
     padding-right: 3em;
+    padding-bottom: 1em;
+  }
+  .main__container .row {
+    display: block;
   }
   .main__container h2 {
     font-size: 35px;
@@ -532,7 +552,16 @@ p {
   .main__container p {
     font-size: 14px;
   }
+
+  .main__graphic {
+    padding-bottom: 1em;
+  }
 }
+.image-animation {
+  animation-name: opacidad;
+  animation-iteration-count: infinite;
+}
+
 .prices__container {
   position: relative;
   background-color: transparent;
@@ -549,7 +578,7 @@ p {
 }
 .section__container h2 {
   color: #FFFFFF;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 .section__container .row {
   padding-top: 2em;
@@ -577,6 +606,26 @@ p {
   margin-top: 1em;
 }
 
+@media screen and (max-width: 729px) {
+  .section__container {
+    background-color: #333745;
+    top: 5rem;
+    padding-bottom: 3em;
+  }
+
+  #card1 {
+    width: 80%;
+    grid-column-start: 1;
+    margin-left: 1.8em;
+    margin-right: 1em;
+  }
+
+  #card2 {
+    grid-column-start: 1;
+    margin-left: 1.8em;
+    margin-right: 1em;
+  }
+}
 .footer {
   background-color: #222323;
   color: #AEACAF;
@@ -604,6 +653,10 @@ p {
 }
 
 @media screen and (max-width: 729px) {
+  .footer {
+    margin-top: 5em;
+  }
+
   .footer__section {
     display: block;
   }

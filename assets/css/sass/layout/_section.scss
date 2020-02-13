@@ -13,7 +13,7 @@
   top: 10rem;
   h2 {
     color: $white;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
   .row {
     padding-top: 2em;
@@ -43,5 +43,21 @@
 }
 // Media Querys versión movil (IMG)
 @media screen and (max-width: 729px) {
+  .section__container {
+    background-color: $onyx;
+    top: 5rem;
+    padding-bottom: 3em;
+  }
+  #card1 {
+    width: 80%;
+    grid-column-start: 1;
+    margin-left: 1.8em;
+    margin-right: 1em;
+  }
+  #card2 {
+    grid-column-start: 1;
+    margin-left: 1.8em;
+    margin-right: 1em;
+  }
 
 }

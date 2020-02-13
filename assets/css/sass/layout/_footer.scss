@@ -27,6 +27,9 @@
 
 // Media Querys versión movil
 @media screen and (max-width: 729px) {
+  .footer {
+    margin-top: 5em;
+  }
   .footer__section {
     display: block;
   }

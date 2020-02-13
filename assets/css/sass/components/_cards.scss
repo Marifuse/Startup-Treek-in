@@ -31,3 +31,10 @@
     margin: 0.5em;
   }
 }
+
+// Media Querys versión movil
+@media screen and (max-width: 729px) {
+  .card__features {
+    height: auto;
+  }
+}

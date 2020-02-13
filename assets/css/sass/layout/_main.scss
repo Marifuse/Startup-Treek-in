@@ -33,6 +33,10 @@
     padding-top: 1em;
     padding-left: 3em;
     padding-right: 3em;
+    padding-bottom: 1em;
+    .row {
+      display: block;
+    }
     h2 {
       font-size: $xx-large;
     }
@@ -43,4 +47,13 @@
       font-size: $small;
     }
   }
+  .main__graphic {
+    padding-bottom: 1em;
+  }
+}
+
+// Animación gráfico
+.image-animation {
+  animation-name: opacidad;
+  animation-iteration-count: infinite;
 }
