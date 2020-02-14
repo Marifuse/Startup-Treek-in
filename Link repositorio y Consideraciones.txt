@@ -1,0 +1,8 @@
+Link del Repositorio GITHUB
+
+https://github.com/Marifuse/Startup-Treek-in
+
+~Algunas Consideraciones~
+
+- La medida que tiene como mínimo para que se vea como la imagen mobile es de 430px (De más pequeño se desbordaba).
+- La versión medium no la realicé ya que no se pedía como requisito (Pretendo mejorar esos detalles cuando tenga tiempo).

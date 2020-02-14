@@ -3,7 +3,6 @@
   background-color: $raisin-black;
   color: $silver-chalice;
   padding: 2em;
-  margin-top: 17em;
   a {
     color: $silver-chalice;
   }
@@ -36,7 +35,10 @@
   .footer__items {
     display: flex;
     justify-content: center;
-    padding-bottom: 1em;
+    li {
+      padding-right: 0;
+      padding: 1em;
+    }
   }
   .footer__copyright {
     display: flex;
