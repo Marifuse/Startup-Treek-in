@@ -238,6 +238,10 @@ p {
   .card__features {
     height: auto;
   }
+
+  #card1 ul {
+    padding-bottom: 8em;
+  }
 }
 .row {
   display: grid;
@@ -592,10 +596,10 @@ p {
 
 .section__container {
   position: relative;
+  background-color: #333745;
 }
 .section__container h2 {
   color: #FFFFFF;
-  margin-top: 1em;
 }
 .section__container .row {
   padding-top: 2em;

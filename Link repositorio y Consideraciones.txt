@@ -6,3 +6,7 @@ https://github.com/Marifuse/Startup-Treek-in
 
 - La medida que tiene como mínimo para que se vea como la imagen mobile es de 430px (De más pequeño se desbordaba).
 - La versión medium no la realicé ya que no se pedía como requisito (Pretendo mejorar esos detalles cuando tenga tiempo).
+- Igual cuando abrí el trabajo en mi computador, se me generó una parte blanca entre la sección y el footer (sin que hubiera
+un margen generando problemas). Le coloqué un background-color para que esa parte blanca desapareciera. Lo más probable 
+es que si abro el mismo trabajo en el pc de la sala, se vea algo extraño. (Dentro de esta carpeta dejaré la versión que 
+se ve bien en el pc de la sala).

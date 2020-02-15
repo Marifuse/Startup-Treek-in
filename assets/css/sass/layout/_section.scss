@@ -10,10 +10,10 @@
 }
 .section__container {
   position: relative;
-  // top: 10rem;
+  background-color: $onyx; //Dejé esta propiedad en ambas versiones porque en mi pc se genera un margen blanco y así se evita ese problema
   h2 {
     color: $white;
-    margin-top: 1em;
+    // margin-top: 1em; En el pc del curso, este padding se ve bien, pero en mi pc no.
   }
   .row {
     padding-top: 2em;
@@ -60,6 +60,7 @@
     grid-column-start: 1;
     margin-left: 1.8em;
     margin-right: 1em;
+    
   }
   #card2 {
     grid-column-start: 1;
